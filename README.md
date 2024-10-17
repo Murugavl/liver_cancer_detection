@@ -1,4 +1,4 @@
-Liver Cancer Detection Using Machine Learning
+<h1>Liver Cancer Detection Using Machine Learning</h1>
 
 
 Project Overview
@@ -44,7 +44,7 @@ Visualization: ROC curves and other visualizations are plotted to compare model 
 How to Run
 1. Clone the Repository: Clone this project repository from GitHub or download the source files.
 
-       git clone <repository-url>
+       git clone https://github.com/Murugavl/liver_cancer_detection.git
        cd liver-cancer-detection
 2. Run the Jupyter Notebook: Open the project notebook (Liver_Cancer_Detection.ipynb) in JupyterLab or Jupyter Notebook.
 

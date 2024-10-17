@@ -52,13 +52,13 @@ The project consists of the following steps:
 
 <h4>3. Model Training and Evaluation:</h4>
 
-    After loading the dataset, you'll train multiple machine learning models (Logistic Regression, KNN, Random Forest, etc.).
-    Evaluate each model based on metrics like accuracy and AUC (Area Under the Curve).
+   After loading the dataset, you'll train multiple machine learning models (Logistic Regression, KNN, Random Forest, etc.).
+   Evaluate each model based on metrics like accuracy and AUC (Area Under the Curve).
 
 <h4>4. Results:</h4>
 
-    The best-performing model in the project was XGBoost, which achieved the highest AUC score.
-    Visualize the ROC curves to compare the performance of different algorithms.
+   The best-performing model in the project was XGBoost, which achieved the highest AUC score.
+   Visualize the ROC curves to compare the performance of different algorithms.
 
 <h2>Future Work</h2>
 

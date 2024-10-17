@@ -25,7 +25,7 @@ Other health indicators related to liver function
 
 Make sure to preprocess the dataset correctly (e.g., handle missing values, normalize/scale features) before training the models.
 
-You can install the required packages using the following command:
+<h3>You can install the required packages using the following command:</h3>
 
        pip install pandas numpy scikit-learn xgboost matplotlib seaborn
 
@@ -34,28 +34,28 @@ You can install the required packages using the following command:
 
 The project consists of the following steps:
 
-<h5>Data Loading:</h5> The dataset is loaded from a CSV file.
-<h5>Data Preprocessing:</h5> This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.
-<h5>Model Training:</h5> Several machine learning algorithms are trained on the training data.
-<h5>Model Evaluation:</h5> The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.
-<h5>Visualization:</h5> ROC curves and other visualizations are plotted to compare model performance.
+<h4>Data Loading:</h4>       The dataset is loaded from a CSV file.
+<h4>Data Preprocessing:</h4>        This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.
+<h4>Model Training:</h4>        Several machine learning algorithms are trained on the training data.
+<h4>Model Evaluation:</h4>        The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.
+<h4>Visualization:</h4>        ROC curves and other visualizations are plotted to compare model performance.
 
 <h2>How to Run</h2>
 
-1. Clone the Repository: Clone this project repository from GitHub or download the source files.
+<h4>1. Clone the Repository: Clone this project repository from GitHub or download the source files.</h4>
 
        git clone https://github.com/Murugavl/liver_cancer_detection.git
        cd liver-cancer-detection
-2. Run the Jupyter Notebook: Open the project notebook (Liver_Cancer_Detection.ipynb) in JupyterLab or Jupyter Notebook.
+<h4>2. Run the Jupyter Notebook: Open the project notebook (Liver_Cancer_Detection.ipynb) in JupyterLab or Jupyter Notebook.</h4>
 
        jupyter notebook Liver_Cancer_Detection.ipynb
 
-3. Model Training and Evaluation:
+<h4>3. Model Training and Evaluation:</h4>
 
     After loading the dataset, you'll train multiple machine learning models (Logistic Regression, KNN, Random Forest, etc.).
     Evaluate each model based on metrics like accuracy and AUC (Area Under the Curve).
 
-4. Results:
+<h4>4. Results:</h4>
 
     The best-performing model in the project was XGBoost, which achieved the highest AUC score.
     Visualize the ROC curves to compare the performance of different algorithms.

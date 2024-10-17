@@ -2,26 +2,26 @@
 
 
 <h2>Project Overview</h2>
-This project focuses on detecting liver cancer using various machine learning algorithms. The dataset contains features relevant to liver health, and the goal is to predict whether a patient has liver cancer or not based on these features.
+<p> &emsp; This project focuses on detecting liver cancer using various machine learning algorithms. The dataset contains features relevant to liver health, and the goal is to predict whether a patient has liver cancer or not based on these features.</p>
 
 <h2>Algorithms Used:</h2>
 
-K-Nearest Neighbors (KNN)
-Support Vector Classification (SVC)
-Logistic Regression (LR)
-Decision Tree (DT)
-Gaussian Naive Bayes (GNB)
-Random Forest (RF)
-Gradient Boosting (GB)
-XGBoost (XGB)
+<p> &emsp; K-Nearest Neighbors (KNN)</p>
+<p> &emsp; Support Vector Classification (SVC)</p>
+<p> &emsp; Logistic Regression (LR)</p>
+<p> &emsp; Decision Tree (DT)</p>
+<p> &emsp; Gaussian Naive Bayes (GNB)</p>
+<p> &emsp; Random Forest (RF)</p>
+<p> &emsp; Gradient Boosting (GB)</p>
+<p> &emsp; XGBoost (XGB)</p>
 
 <h2>Dataset</h2>
 
 The dataset used in this project can be downloaded from Kaggle and includes the following features:
-Age
-BMI
-Blood test results (like albumin, bilirubin, etc.)
-Other health indicators related to liver function
+<p> &emsp; * Age</p>
+<p> &emsp; * BMI</p>
+<p> &emsp; * Blood test results (like albumin, bilirubin, etc.)</p>
+<p> &emsp; * Other health indicators related to liver function</p>
 
 Make sure to preprocess the dataset correctly (e.g., handle missing values, normalize/scale features) before training the models.
 
@@ -34,11 +34,11 @@ Make sure to preprocess the dataset correctly (e.g., handle missing values, norm
 
 The project consists of the following steps:
 
-<h4>Data Loading:</h4>       The dataset is loaded from a CSV file.
-<h4>Data Preprocessing:</h4>        This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.
-<h4>Model Training:</h4>        Several machine learning algorithms are trained on the training data.
-<h4>Model Evaluation:</h4>        The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.
-<h4>Visualization:</h4>        ROC curves and other visualizations are plotted to compare model performance.
+<h4>Data Loading:</h4> <p> &emsp; The dataset is loaded from a CSV file.</p>
+<h4>Data Preprocessing:</h4> <p> &emsp; This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.</p>
+<h4>Model Training:</h4> <p> &emsp; Several machine learning algorithms are trained on the training data.</p>
+<h4>Model Evaluation:</h4> <p> &emsp; The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.</p>
+<h4>Visualization:</h4> <p> &emsp; ROC curves and other visualizations are plotted to compare model performance.</p>
 
 <h2>How to Run</h2>
 
@@ -52,17 +52,17 @@ The project consists of the following steps:
 
 <h4>3. Model Training and Evaluation:</h4>
 
-   After loading the dataset, you'll train multiple machine learning models (Logistic Regression, KNN, Random Forest, etc.).
-   Evaluate each model based on metrics like accuracy and AUC (Area Under the Curve).
+   <p> &emsp; After loading the dataset, you'll train multiple machine learning models (Logistic Regression, KNN, Random Forest, etc.).
+   Evaluate each model based on metrics like accuracy and AUC (Area Under the Curve).</p>
 
 <h4>4. Results:</h4>
 
-   The best-performing model in the project was XGBoost, which achieved the highest AUC score.
-   Visualize the ROC curves to compare the performance of different algorithms.
+   <p> &emsp; The best-performing model in the project was XGBoost, which achieved the highest AUC score.
+   Visualize the ROC curves to compare the performance of different algorithms.</p>
 
 <h2>Future Work</h2>
 
-  * Experiment with feature selection techniques to improve model performance.
-  * Tune hyperparameters of the machine learning models for better results.
-  * Try different datasets or ensemble methods for potential improvements.
+  <p> &emsp; * Experiment with feature selection techniques to improve model performance.</p>
+  <p> &emsp; * Tune hyperparameters of the machine learning models for better results.</p>
+  <p> &emsp; * Try different datasets or ensemble methods for potential improvements.</p>
 

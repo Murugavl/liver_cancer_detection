@@ -1,11 +1,10 @@
 <h1>Liver Cancer Detection Using Machine Learning</h1>
 
 
-Project Overview
-
+<h2>Project Overview</h2>
 This project focuses on detecting liver cancer using various machine learning algorithms. The dataset contains features relevant to liver health, and the goal is to predict whether a patient has liver cancer or not based on these features.
 
-Algorithms Used:
+<h2>Algorithms Used:</h2>
 
 K-Nearest Neighbors (KNN)
 Support Vector Classification (SVC)
@@ -16,7 +15,7 @@ Random Forest (RF)
 Gradient Boosting (GB)
 XGBoost (XGB)
 
-Dataset
+<h2>Dataset</h2>
 
 The dataset used in this project can be downloaded from Kaggle and includes the following features:
 Age
@@ -28,20 +27,21 @@ Make sure to preprocess the dataset correctly (e.g., handle missing values, norm
 
 You can install the required packages using the following command:
 
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn
+       pip install pandas numpy scikit-learn xgboost matplotlib seaborn
 
 
-Project Structure
+<h2>Project Structure</h2>
 
 The project consists of the following steps:
 
-Data Loading: The dataset is loaded from a CSV file.
-Data Preprocessing: This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.
-Model Training: Several machine learning algorithms are trained on the training data.
-Model Evaluation: The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.
-Visualization: ROC curves and other visualizations are plotted to compare model performance.
+<h5>Data Loading:</h5> The dataset is loaded from a CSV file.
+<h5>Data Preprocessing:</h5> This includes handling missing values, scaling the features, and splitting the dataset into training and testing sets.
+<h5>Model Training:</h5> Several machine learning algorithms are trained on the training data.
+<h5>Model Evaluation:</h5> The models are evaluated using accuracy, confusion matrix, and ROC-AUC score.
+<h5>Visualization:</h5> ROC curves and other visualizations are plotted to compare model performance.
 
-How to Run
+<h2>How to Run</h2>
+
 1. Clone the Repository: Clone this project repository from GitHub or download the source files.
 
        git clone https://github.com/Murugavl/liver_cancer_detection.git
@@ -60,7 +60,7 @@ How to Run
     The best-performing model in the project was XGBoost, which achieved the highest AUC score.
     Visualize the ROC curves to compare the performance of different algorithms.
 
-Future Work
+<h2>Future Work</h2>
 
   * Experiment with feature selection techniques to improve model performance.
   * Tune hyperparameters of the machine learning models for better results.

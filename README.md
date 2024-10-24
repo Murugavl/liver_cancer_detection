@@ -60,9 +60,4 @@ The project consists of the following steps:
    <p> &emsp; The best-performing model in the project was XGBoost, which achieved the highest AUC score.
    Visualize the ROC curves to compare the performance of different algorithms.</p>
 
-<h2>Future Work</h2>
-
-  <p> &emsp; * Experiment with feature selection techniques to improve model performance.</p>
-  <p> &emsp; * Tune hyperparameters of the machine learning models for better results.</p>
-  <p> &emsp; * Try different datasets or ensemble methods for potential improvements.</p>
 
